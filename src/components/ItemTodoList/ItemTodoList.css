@@ -1,0 +1,15 @@
+.todo-item {
+    width: 100%;
+    padding: .4em .8em;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    background: #25273C;
+}
+
+.todo-item.empty-todo-item {
+    position: absolute;
+    z-index: 1;
+    padding: 25px 0;
+    text-align: center;
+}

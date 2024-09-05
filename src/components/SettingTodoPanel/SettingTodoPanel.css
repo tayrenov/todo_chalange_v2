@@ -1,0 +1,32 @@
+.settingTodoPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1em;
+    position: absolute;
+    bottom: -62px; left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 1em 1.8em;
+    box-sizing: border-box;
+    font-size: .8em;
+    background: #25273C;
+    border-radius: .0em .0em .4em .4em;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+}
+
+.settingTodoPanel_sort {
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+    cursor: pointer;
+}
+
+.settingTodoPanel_sort > .active {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.settingTodoPanel_clear-all {
+    cursor: pointer;
+}
